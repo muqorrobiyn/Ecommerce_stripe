@@ -3,7 +3,11 @@
 import os
 import sys
 
+<<<<<<< HEAD
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+=======
+
+>>>>>>> 34177e27f3f66fe78b52bf428fe3e3ee601630f6
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
